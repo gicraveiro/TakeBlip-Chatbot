@@ -54,7 +54,7 @@ app.listen(port);
 app.get('/', function(req, res) {
     res.json(json_data);
   });
-return res.json(json_data)
+//return res.json(json_data)
 // Setting the server to listen at port 3000
 /*
 app.listen(3000, function(req, res) {
