@@ -2,7 +2,7 @@
 import express, { json } from 'express'
 
 const app = express();
-//var router = express.Router();  // get an instance of th express Router
+var router = express.Router();  // get an instance of th express Router
 // Ordering array by date of creation
 function compare(a,b) {
     if (a.created_at > b.created_at) {
@@ -45,7 +45,7 @@ take_data.forEach(function(value){
 
 
 // Defining get request at '/' route
-app.get('/', function(req, res) {
+app.get('https://calm-caverns-99785.herokuapp.com/', function(req, res) {
     res.json(json_data);
   });
 // Setting the server to listen at port 3000
