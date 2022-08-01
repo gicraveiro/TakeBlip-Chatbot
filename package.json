@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "takeblip-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gicraveiro/TakeBlip-Chatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gicraveiro/TakeBlip-Chatbot/issues"
+  },
+  "homepage": "https://github.com/gicraveiro/TakeBlip-Chatbot#readme",
+  "dependencies": {
+    "blip-sdk": "^10.0.1",
+    "lime-transport-websocket": "^2.0.3",
+    "xhr2": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
