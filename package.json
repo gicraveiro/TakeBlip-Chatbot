@@ -19,6 +19,7 @@
   "homepage": "https://github.com/gicraveiro/TakeBlip-Chatbot#readme",
   "dependencies": {
     "blip-sdk": "^10.0.1",
+    "express": "^4.18.1",
     "lime-transport-websocket": "^2.0.3",
     "xhr2": "^0.2.1"
   },
