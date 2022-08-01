@@ -28,17 +28,15 @@ async function get_data(url){
     }
 
 // Integração com a API do github 
-    
 const github_url = 'https://api.github.com/users/takenet';
 const take_data = await get_data(github_url);
-//console.log(take_data)
 var json_data = {"avatar_url": take_data[0].owner.avatar_url, "repositories": []}
 
+// Creating response json
 take_data.forEach(function(value){
     var full_name  = {
         full_name: value.full_name,
         description: value.description,
-        //avatar_url: value.owner.avatar_url
     }
     json_data.repositories.push(full_name)
 });
@@ -47,6 +45,7 @@ if (port == null || port == "") {
   port = 8000;
 }
 
+// Establishing connection
 app.listen(port);
 
 // Defining get request at '/' route
