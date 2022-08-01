@@ -31,8 +31,8 @@ async function get_data(url){
     
 const github_url = 'https://api.github.com/users/takenet';
 const take_data = await get_data(github_url);
-console.log(take_data)
-var json_data = [{"avatar_url": take_data[0].owner.avatar_url}]
+//console.log(take_data)
+var json_data = {"avatar_url": take_data[0].owner.avatar_url, "repositories": []}
 
 take_data.forEach(function(value){
     var full_name  = {
@@ -40,7 +40,7 @@ take_data.forEach(function(value){
         description: value.description,
         //avatar_url: value.owner.avatar_url
     }
-    json_data.push(full_name)
+    json_data.repositories.push(full_name)
 });
 
 if (port == null || port == "") {
