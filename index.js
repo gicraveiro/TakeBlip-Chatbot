@@ -2,7 +2,7 @@
 import express, { json } from 'express'
 
 const app = express();
-
+//var router = express.Router();  // get an instance of th express Router
 // Ordering array by date of creation
 function compare(a,b) {
     if (a.created_at > b.created_at) {
@@ -49,6 +49,8 @@ app.get('/', function(req, res) {
     res.json(json_data);
   });
 // Setting the server to listen at port 3000
+/*
 app.listen(3000, function(req, res) {
     console.log("Server is running at port 3000");
   });
+  */
