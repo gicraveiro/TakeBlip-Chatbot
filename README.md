@@ -72,6 +72,11 @@ Create a chatbot from zero then look for the following options
 Builder -> Configuration (on the left side of the screen) -> Versions -> Import Flow -> Choose the "flow.json" file -> Publish flow-> Test published chatbot
 
 
+Note: The API was published by Heroku with a free account. It has one dyno, which sleeps whenever the API is not called for more than 30 minutes. Therefore, the first call to this API (by the chatbot by clicking in the option "Desafio" or "Fazer Desafio", or by the API itself) might have a short delay. Please be patient while waiting for the chatbot to respond to the option "Desafio" :)
+
+
+Note: The images used at the values' carroussel were downloaded from the file containing the conversational flow given by TakeBlip, and made available online by an account at imgur.
+
 
 
 
