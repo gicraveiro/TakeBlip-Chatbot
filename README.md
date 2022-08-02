@@ -41,6 +41,8 @@ To run the project, go to the terminal, enter the project folder,  and run comma
 npm test
 
 
+Note: Press Ctrl+C to quit running
+
 # Accessing the API
 To execute locally, clone the github repository and run the project:
 
