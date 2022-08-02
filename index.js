@@ -23,6 +23,12 @@ async function get_data(url){
     repos_data.push(...repos_data2)
     var c_sharp_repos = repos_data.filter(function(item) { return item.language == 'C#'})
     c_sharp_repos.sort(compare);
+
+    // Debug Print: Confirming values are correctly retrieved and the array is correctly sorted in ascending order of date of creation
+    /*c_sharp_repos.forEach(function(value){
+        console.log(value.full_name,"\n",value.description,"\n",value.owner.avatar_url,"\n",value.created_at,"\n\n")
+    })*/
+    
     const selected_repos = c_sharp_repos.slice(0, 5)
     return selected_repos
     }
