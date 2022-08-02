@@ -76,6 +76,6 @@ Builder -> Configuration (on the left side of the screen) -> Versions -> Import 
 
 - It's possible that different versions of nodejs and npm cause different results than expected. To find out which version you have installed, go to the terminal and run commands:
 
-node --version
+  node --version
 
-npm --version
+  npm --version
