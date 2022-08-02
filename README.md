@@ -13,12 +13,6 @@ The API is available online at https://calm-caverns-99785.herokuapp.com/
 - Nodejs (https://nodejs.org/en/download/)
 - Having a Blip account (https://account.blip.ai/register?returnUrl=%2Faccount)
 
-Note: It's possible that different versions of nodejs and npm cause different results than expected. To find out which version you have installed, go to the terminal and run command:
-
-node --version
-
-npm --version
-
 
 This project was created using versions:
 
@@ -28,8 +22,6 @@ npm 8.15.1
 
 
 # Installing
-Note: I created the project using linux(ubuntu) and visual studio code, different distros and development interfaces might use different commands
-
 This project has one node module that must be installed in order to run properly. Go to the terminal and run the following command:
 
 npm install express
@@ -54,7 +46,6 @@ cd TakeBlip-Chatbot
 npm start
 
 
-
 Once the project is running in your machine, you can access the API at port 8000 in a browser
 
 http://localhost:8000/
@@ -73,13 +64,18 @@ Create a chatbot from zero then look for the following options
 
 Builder -> Configuration (on the left side of the screen) -> Versions -> Import Flow -> Choose the "flow.json" file -> Publish flow-> Test published chatbot
 
+# Notes
 
-Note: The API was published by Heroku with a free account. It has one dyno, which sleeps whenever the API is not called for more than 30 minutes. Therefore, the first call to this API (by the chatbot by clicking in the option "Desafio" or "Fazer Desafio", or by the API itself) might have a short delay. Please be patient while waiting for the chatbot to respond to the option "Desafio" :)
-
-
-Note: The images used at the values' carroussel were downloaded from the file containing the conversational flow given by TakeBlip, and made available online by an account at imgur.
+- I created the project using linux(ubuntu) and visual studio code, different distros and development interfaces might use different commands
 
 
+- The API was published by Heroku with a free account. It has one dyno, which sleeps whenever the API is not called for more than 30 minutes. Therefore, the first call to this API (by the chatbot by clicking in the option "Desafio" or "Fazer Desafio", or by the API itself) might have a short delay. Please be patient while waiting for the chatbot to respond to the option "Desafio" :)
 
 
+- The images used at the values' carroussel were downloaded from the file containing the conversational flow given by TakeBlip, and made available online by an account at imgur.
 
+- It's possible that different versions of nodejs and npm cause different results than expected. To find out which version you have installed, go to the terminal and run commands:
+
+node --version
+
+npm --version
