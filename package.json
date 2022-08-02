@@ -2,7 +2,7 @@
   "type": "module",
   "name": "takeblip-chatbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A repository created during a technical test as part of a selective process to the vacancy of Chatbot Developer at the company TakeBlip. The chatbot was built with the platform Blip, using the Builder (lowcode) and was exported to the folder Flow. Apart from greetings, it displays information about TakeBlip's 6 values and Takeblip's oldest C# repositories in Github. In this project, there is also the API that retrieves data from TakeBlip's Github user, returning a json file containing full name and description of their 5 oldest C# repositories by ascending order, among with the url of Takeblip's avatar in Github. The API is available online at https://calm-caverns-99785.herokuapp.com/",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
@@ -11,21 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/gicraveiro/TakeBlip-Chatbot.git"
   },
-  "author": "",
+  "author": "Giovana Meloni Craveiro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gicraveiro/TakeBlip-Chatbot/issues"
   },
   "homepage": "https://github.com/gicraveiro/TakeBlip-Chatbot#readme",
   "dependencies": {
-    "blip-sdk": "^10.0.1",
-    "express": "^4.18.1",
-    "lime-transport-websocket": "^2.0.3",
-    "xhr2": "^0.2.1"
-  },
-  "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0"
+    "express": "^4.18.1"
   },
   "engines": {
     "node": "18.1.0"
