@@ -38,7 +38,7 @@ npm install express
 # Running
 To run the project, go to the terminal, enter the project folder,  and run command:
 
-npm test
+npm start
 
 
 Note: Press Ctrl+C to quit running
@@ -51,7 +51,7 @@ git clone https://github.com/gicraveiro/TakeBlip-Chatbot.git
 
 cd TakeBlip-Chatbot
 
-npm test
+npm start
 
 
 
