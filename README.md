@@ -38,7 +38,7 @@ npm install express
 # Running
 To run the project, go to the terminal, enter the project folder,  and run command:
 
-node index.js
+npm test
 
 
 # Accessing the API
@@ -49,7 +49,7 @@ git clone https://github.com/gicraveiro/TakeBlip-Chatbot.git
 
 cd TakeBlip-Chatbot
 
-node index.js
+npm test
 
 
 
