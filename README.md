@@ -19,6 +19,7 @@ node --version
 
 npm --version
 
+
 This project was created using versions:
 
 Nodejs v18.1.0
@@ -35,7 +36,7 @@ npm install express
 
 
 # Running
-To run the project, enter the project folder, go to the terminal and run command:
+To run the project, go to the terminal, enter the project folder,  and run command:
 
 node index.js
 
@@ -51,7 +52,8 @@ cd TakeBlip-Chatbot
 node index.js
 
 
-Then go to the browser and access the API at port 8000
+
+Once the project is running in your machine, you can access the API at port 8000 in a browser
 
 http://localhost:8000/
 
@@ -61,13 +63,13 @@ To access the published API, open the following link in the browser:
 https://calm-caverns-99785.herokuapp.com/
 
 # Testing the chatbot
-Download the file flow.json from this repository(it's inside the folder Flow)
+Download the file flow.json from this repository (it's inside the folder "Flow")
 
-Enter the Blip Portal platform (https://portal.blip.ai/)
+Enter the "Blip Portal" (https://portal.blip.ai/)
 
-Create a chatbot from zero
+Create a chatbot from zero then look for the following options
 
-Go to Builder->Configuration(on the left side of the screen)->Versions->Import Flow->Choose the flow.json file->Publish flow->Test published chatbot
+Builder -> Configuration (on the left side of the screen) -> Versions -> Import Flow -> Choose the "flow.json" file -> Publish flow-> Test published chatbot
 
 
 
