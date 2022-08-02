@@ -56,5 +56,6 @@ app.listen(port);
 
 // Defining get request at '/' route
 app.get('/', function(req, res) {
-    res.json(json_data);
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(json_data, null, 2));
   });
