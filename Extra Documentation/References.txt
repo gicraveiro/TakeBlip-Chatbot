@@ -1,7 +1,0 @@
-References
-(Tutorials that helped me develop, deploy and correct errors of the code)
-
-https://forum.blip.ai/t/acessando-dados-de-um-array-de-objetos/11860/11
-https://devcenter.heroku.com/articles/getting-started-with-nodejs#prepare-the-app
-https://rapidapi.com/blog/nodejs-express-rest-api-example/
-https://www.udemy.com/course/criando-chatbots-com-a-plataforma-blip/learn/lecture/11720082#overview
